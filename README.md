@@ -2,7 +2,7 @@
 
 **Deep learning enabled MRI general denoising at 0.55T (ISMRM 2024, Oral)** <br><br>
 **Advancing accessible low-field MRI with a universal Imaging Transformer denoising network (ImT-MRD): Towards fast and high-quality imaging** <br><br>
-**Imaging transformer** [Arxiv](https://arxiv.org/abs/2404.02382) <br><br>
+**Imaging transformer** [[Arxiv](https://arxiv.org/abs/2404.02382)] <br><br>
 
 Pipeline overview:
 <br>
