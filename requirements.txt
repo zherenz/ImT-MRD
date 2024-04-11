@@ -1,0 +1,11 @@
+python==3.9.16
+scikit-image==0.20.0
+numpy=1.24.3
+tqdm==4.65.0
+colorama==0.4.6
+torchinfo==1.7.2
+pytorch==2.1.0 
+torchvision==0.16.0 
+torchaudio==2.1.0 
+pytorch-cuda=12.1
+nibabel==5.1.0
