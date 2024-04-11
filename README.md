@@ -2,12 +2,12 @@
 
 Pipeline overview:
 <br>
-<img src="./doc/images/overview.png"  width="70%" height="70%">
+<img src="./doc/images/overview.png"  width="100%" height="100%">
 <br>
 <br>
 Network architecture:
 <br>
-<img src="./doc/images/architecture.png"  width="70%" height="70%">
+<img src="./doc/images/architecture.png"  width="100%" height="100%">
 <br>
 
 ## Notes
