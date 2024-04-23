@@ -36,8 +36,8 @@ if save gif or nii: <br>
 
 ### Example
 Model-complex: <br>
-python3 run_inference_batch_local.py --input_dir ../examples/ --output_dir ../examples/ --saved_model_path ../pretrained_model_weights/0804-noGmap-l1c1_1e-3_vgg0.1-PN16-03perturb3-NL1to10-noWL-mri-HRNET-conv-parallel-batch2d-sophia-C-32-H-32-MIXER-conv-1-T1L1G1T1L1G1_T1L1G1T1L1G1T1L1G1_T1L1G1T1L1G1T1L1G1_T1L1G1T1L1G1T1L1G1-20231017_031036_complex_residual_20-10-49-20231016_best.pts --separate_complex --save_gif 5 --save_nii 5 --save_input_imgs <br>
-Model-complex: <br>
+python3 run_inference_batch_local.py --input_dir ../examples/ --output_dir ../examples/ --saved_model_path ../pretrained_model_weights/0804-noGmap-l1c1_1e-3_vgg0.1-PN16-03perturb3-NL1to10-noWL-mri-HRNET-conv-parallel-batch2d-sophia-C-32-H-32-MIXER-conv-1-T1L1G1T1L1G1_T1L1G1T1L1G1T1L1G1_T1L1G1T1L1G1T1L1G1_T1L1G1T1L1G1T1L1G1-20231017_031036_complex_residual_20-10-49-20231016_best.pts --separate_complex --save_gif 5 --save_nii 5 --save_input_imgs <br> <br>
+Model-magnitude: <br>
 python3 run_inference_batch_local.py --input_dir ../examples_mag/ --output_dir ../examples_mag/ --saved_model_path ../pretrained_model_weights/0804_image_l1c1_1e-3_vgg0.1-PN16-03perturb3-NL1to10-noWL-mri-HRNET-conv-parallel-batch2d-sophia-C-32-H-32-MIXER-conv-1-T1L1G1T1L1G1_T1L1G1T1L1G1T1L1G1_T1L1G1T1L1G1T1L1G1_T1L1G1T1L1G1T1L1G1-20240416_231332_residual_16-13-46-20240416_best.pts --save_gif 5 --save_input_imgs <br>
 
 ## I/O
