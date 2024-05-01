@@ -1,7 +1,7 @@
 # Advancing accessible low-field MRI with a universal denoising Imaging Transformer (ImT-MRD): Towards fast and high-quality imaging
 
 **Deep learning enabled MRI general denoising at 0.55T (ISMRM 2024, Oral, Magna Cum Laude Award)** [[ISMRM Proceedings](https://submissions.mirasmart.com/ISMRM2024/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-61)] <br><br>
-**Advancing accessible low-field MRI with a universal Imaging Transformer denoising network (ImT-MRD): Towards fast and high-quality imaging** [ToBeAnnouced] <br><br>
+**Advancing accessible low-field MRI with a universal Imaging Transformer denoising network: Towards fast and high-quality imaging** [[Arxiv](https://arxiv.org/abs/2404.19167)] <br><br>
 **Imaging transformer** [[Arxiv](https://arxiv.org/abs/2404.02382)] <br><br>
 
 Pipeline overview:
