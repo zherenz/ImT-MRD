@@ -17,7 +17,7 @@ from PIL import Image
 from tqdm import tqdm
 from pathlib import Path
 
-Project_DIR = Path(__file__).parents[1].resolve()
+Project_DIR = Path(__file__).resolve().parents[1]
 sys.path.insert(1, str(Project_DIR))
 
 from utils import *
@@ -200,8 +200,8 @@ def apply_model(data, model, gmap, config):
             data_filtered = np.reshape(data_filtered, (H, W, SLC))
 
     except Exception as e:
-        print(e)
-        data_filtered = copy.deepcopy(data)
+        print(e, "inference failed")
+        data_filtered = np.reshape(copy.deepcopy(data), (H, W, SLC))
 
     t1 = time()
     print(f"---> apply_model_3D took {t1-t0} seconds ")

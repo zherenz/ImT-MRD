@@ -37,6 +37,11 @@ def running_inference(model, image, cutout=(16,256,256), overlap=(4,64,64), batc
     
     if device == torch.device('cpu'):
         batch_size = 32
+    # Compute capability 8.0 or higher supports bfloat16
+    else:
+        cur_device = torch.cuda.current_device()
+        enable_bfloat16 = torch.cuda.get_device_properties(cur_device).major >= 8
+        print("---> enable_bfloat16: ", enable_bfloat16)
     
     if is_torch_model or is_script_model:
         if is_script_model:
@@ -97,7 +102,10 @@ def running_inference(model, image, cutout=(16,256,256), overlap=(4,64,64), batc
             for i in range(0, image_batch.shape[0], batch_size):
                 x_in = torch.from_numpy(image_batch[i:i+batch_size]).to(device=device)
                 
-                with torch.autocast(device_type='cuda', dtype=torch.bfloat16, enabled=(not is_script_model)):
+                if (not is_script_model) and enable_bfloat16:
+                    with torch.autocast(device_type='cuda', dtype=torch.bfloat16):
+                        res = model(x_in).cpu().detach().numpy()
+                else:
                     res = model(x_in).cpu().detach().numpy()
                     
                 if image_batch_pred is None:
