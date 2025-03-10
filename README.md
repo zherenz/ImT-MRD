@@ -1,6 +1,6 @@
 # Advancing accessible low-field MRI with a universal denoising Imaging Transformer (ImT-MRD): Towards fast and high-quality imaging
 
-**Deep learning enabled MRI general denoising at 0.55T (ISMRM 2024, Oral Presentation, Magna Cum Laude Award)** [[ISMRM Proceedings](https://submissions.mirasmart.com/ISMRM2024/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-61)] <br><br>
+**Deep learning enabled MRI general denoising at 0.55T (ISMRM 2024, Oral Presentation, Magna Cum Laude Award)** [[ISMRM Proceedings](https://archive.ismrm.org/2024/0874_WmrmJORUw.html)] <br><br>
 **Advancing accessible low-field MRI with a universal Imaging Transformer denoising network: Towards fast and high-quality imaging** [[Arxiv](https://arxiv.org/abs/2404.19167)] <br><br>
 **Imaging transformer** [[Arxiv](https://arxiv.org/abs/2404.02382)] <br><br>
 
@@ -18,6 +18,8 @@ Network architecture:
 Only inference code is included in this repo. <br>
 Two models were provided: Model-complex and Model-magnitude-preview(under development). <br>
 Matrix size < 400 * 400 is preferable. <br>
+Please contact the authors (zheren.zhu and yang.yang4 @ucsf.edu) for model weights <br>
+Unauthorized copying, modification, distribution, or use of this code, in whole or in part, for commercial purposes, is strictly prohibited.<br>
 
 ## Command
 cd mri
