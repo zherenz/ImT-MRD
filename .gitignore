@@ -10,3 +10,5 @@ wandb
 checkpoints
 .ipynb_checkpoints
 *.ipynb
+pretrained_model_weights/*.config
+pretrained_model_weights/*.pts
