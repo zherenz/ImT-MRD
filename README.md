@@ -16,8 +16,8 @@ Network architecture:
 
 ## Notes
 Only inference code is included in this repo. <br>
-Two models were provided: Model-complex and Model-magnitude-preview(under development). <br>
-Matrix size < 400 * 400 is preferable. <br>
+Two models were provided: Model-complex and Model-magnitude-preview. <br>
+A matrix size smaller than 400 × 400 is preferable, as larger images fall outside the scope of our training. <br>
 Please contact the authors (zheren.zhu and yang.yang4 @ucsf.edu) for model weights <br>
 Unauthorized copying, modification, distribution, or use of this code, in whole or in part, for commercial purposes, is strictly prohibited.<br>
 
